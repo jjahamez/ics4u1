@@ -62,4 +62,16 @@ a:hover {
     color: rgb(255, 217, 0);
 }
 
+#accolades img {
+    display: block;
+    margin: auto; 
+    width: 25%;
+}
+
+.caption {
+    margin: 0px;
+    text-align: center;
+}
+
+
 
