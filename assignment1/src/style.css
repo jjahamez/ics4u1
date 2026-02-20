@@ -1,8 +1,22 @@
-h1 
-{
-    background-color: rgb(224, 224, 0); 
+h1.header {
+    background-color: rgb(224, 224, 0);
     color: purple;
     text-align: center;
     font-family: Cambria;
-    font-size: 100px; 
+    font-size: 100px;
 }
+
+.bio {
+    background-color: #fff8dc;
+}
+
+.bio h1 {
+    font-family: Cambria;
+    text-align: center;
+    
+}  
+
+.bio p {
+    font-family: Calibri; 
+}
+  
