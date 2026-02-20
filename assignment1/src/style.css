@@ -1,27 +1,30 @@
 h1.header {
-    background-color: rgb(224, 224, 0);
+    background-color: gold;
     color: purple;
     text-align: center;
     font-family: Cambria;
     font-size: 100px;
     padding: 100px;
-    text-shadow: 4px 4px 8px #aaa;
+    text-shadow: 4px 4px 8px #aaa; /* l/w/h */
+    border: 5px solid purple;
 }
 
 .bio {
     background-color: #fff8dc;
     padding: 30px;
     border-radius: 50px; 
-    outline-color: black;
+    border: 1px solid black;  /* thickness, style, color */
+
 
 }
 
 .bio h1 {
     font-family: Cambria;
+    font-size: 50px;
     text-align: center;
     margin-top: -10px;
-    text-shadow: 1px 1px 2px #aaa;
-    
+    text-shadow: 2px 2px 4px #aaa;
+    color: rgb(102, 60, 60)
 }  
 
 .bio p {
@@ -42,16 +45,21 @@ a:hover {
 #accolades {
     background-color: #e3ffdc;
     font-family: Calibri;
+    padding: 10px;
+}
+
+#accolades h3 {
+    font-family: Cambria;
+    font-size: 25px;
+
 }
 
 #accolades h2 {
     text-align: center; 
     font-family: Cambria;
-
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #aaaaaa;
+    color: rgb(255, 217, 0);
 }
 
-#accolades img  {
-    text-align: center;
-    
-}
 
